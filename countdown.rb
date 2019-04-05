@@ -13,5 +13,10 @@ end
 
 def countdown_with_sleep(integer)
  
-  integer(5.minutes)
+  while integer > 0
+  
+  puts "#{integer} SECOND(S)!"
+  sleep(5)
+  integer -=1
+  end
 end
